@@ -1,0 +1,12 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.16.0/.schema/devbox.schema.json",
+  "packages": [
+    "k3d@latest"
+  ],
+  "shell": {
+    "init_hook": [
+      "alias k=kubectl",
+      "echo 'Devbox shell ready: k3d'"
+    ]
+  }
+}
