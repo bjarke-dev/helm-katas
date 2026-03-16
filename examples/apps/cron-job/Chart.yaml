@@ -1,5 +1,0 @@
-apiVersion: v2
-name: cron-job
-description: A basic cron-job chart
-type: application
-version: 1.0.0

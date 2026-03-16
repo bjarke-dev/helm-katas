@@ -1,4 +1,0 @@
-myYaml:
-  k8s: {{ lower "IS-AWESOME" }}
-  myValue: foo
-  myOtherValue: {{ quote .Values.myOtherValue }}

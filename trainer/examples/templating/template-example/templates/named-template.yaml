@@ -1,7 +1,0 @@
-{{- define "myTemplate" }}
-helmIsCool: true
-{{- end }}
-
-myYaml:
-    foo: bar
-    {{ template "myTemplate" }}
